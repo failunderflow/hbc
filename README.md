@@ -17,7 +17,6 @@ Possible improvements and fixes!
 
 * **SD/USB handling**
   * Handle missing or corrupt SD/USB devices gracefully.
-  * Support hot-swapping if possible.
 
 * **Stability**
   * Audit for memory leaks, and rare crashes.
