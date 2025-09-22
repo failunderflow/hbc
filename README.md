@@ -1,11 +1,79 @@
-# The Homebrew Channel
+# The Homebrew Channel Plus
 
 This repository contains the public release of the source code for
-The Homebrew Channel.
+The Homebrew Channel Plus.
+
+# Improvements
+Possible improvements and fixes!
+
+## Bugfixes (High Priority)
+
+* **Real Wii testing**
+  * Verify behavior on actual Wii hardware (not just Dolphin). I meaaaan it should work but it is slightly different code, so it is worth testing.
+  * Fix timing, IOS permissions, USB initialization, etc. (if any)
+
+<!--* **NAND save & theme bugs**
+  * Ensure themes and save data work properly when launched as a channel with correct identity.-->
+
+* **SD/USB handling**
+  * Handle missing or corrupt SD/USB devices gracefully.
+  * Support hot-swapping if possible.
+
+* **Stability**
+  * Audit for memory leaks, and rare crashes.
+
+## Quality of Life and New Features (Medium Rare ~~Steak~~)
+
+* **UI overhaul**
+  * Modern grid/list view, better scaling for icons/text.
+
+<!-- * **Sorting & filtering**
+  * Alphabetical, last used, categories (games, emulators, tools). -->
+
+* **Search bar**
+  * Quickly find an app if there are dozens installed.
+
+<!--* **Per-app settings**
+  * Override video mode, language, or aspect ratio per app.-->
+
+* **Theme engine refresh**
+  * Easier to install/preview themes, community theme packs, like a store.
+<!-- theme resources: https://wiibrew.org/wiki/Homebrew_Channel/Themes -->
+
+* **Faster boot**
+  * Optimize shit like directory scanning and startup routines.
+
+* **Auto Updater**.
+  * Just as the title says!
+
+## New Features
+
+* **Network booting**
+  * Launch homebrew over Wi-Fi (HTTP/SMB/NFS).
+
+* **Auto-updater / repo browser**
+  * Have a app store to download or update apps from within HBC, just like the [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser).
+
+* **Wii U vWii support**
+  * Graceful handling if run under Wii U’s vWii mode, like is there any issues?
+
+* **Plugin system**
+  * Sidebar widgets (system info, FPS counter, quick tools).
+
+* **Safe Mode**
+  * If a theme or sidebar widget crashes HBC, revert to defaults automatically.
+
+* **More Animations and transitions**
+  * CUSTOMISABLE ANIMATIONS AND TRANSITIONSSSSS!!!!!! (theme options)
+  
+## Integration with outside sources
+* **Companion desktop tool** (Linux/Windows/macOS) to manage SD/USB contents.
+* **Cloud sync** (experimental) for saves/configs/apps via SMB/NFS.
+* **Notifications** for something... I don't know what though, but it would have a popup at the top.
 
 Included portions:
 
-* The Homebrew Channel
+* The Homebrew Channel Plus
 * Reload stub
 * Banner
 * PyWii (includes Alameda for banner creation)
@@ -13,7 +81,7 @@ Included portions:
 
 Not included:
 
-* Installer
+* Installer (wtf is even the installer)
 
 Note that the code in this repository differs from the source code used to build
 the official version of The Homebrew Channel, which includes additional
