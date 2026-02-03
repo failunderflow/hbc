@@ -47,7 +47,7 @@ Possible improvements and fixes!
 
 ## New Features
 
-* **Network booting**
+* **Network booting** (even more lower priority)
   * Launch homebrew over Wi-Fi (HTTP/SMB/NFS).
 
 * **Auto-updater / repo browser** (low priority due to Homebrew Browser existing)
