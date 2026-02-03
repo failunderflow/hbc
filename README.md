@@ -15,11 +15,11 @@ Possible improvements and fixes!
 <!--* **NAND save & theme bugs**
   * Ensure themes and save data work properly when launched as a channel with correct identity.-->
 
-* **SD/USB handling**
+<!--* **SD/USB handling**
   * Handle missing or corrupt SD/USB devices gracefully.
 
 * **Stability**
-  * Audit for memory leaks, and rare crashes.
+  * Audit for memory leaks, and rare crashes.-->
 
 ## Quality of Life and New Features (Medium Rare ~~Steak~~)
 
@@ -39,8 +39,8 @@ Possible improvements and fixes!
   * Easier to install/preview themes, community theme packs, like a store.
 <!-- theme resources: https://wiibrew.org/wiki/Homebrew_Channel/Themes -->
 
-* **Faster boot**
-  * Optimize shit like directory scanning and startup routines.
+<!--* **Faster boot**
+  * Optimize shit like directory scanning and startup routines.-->
 
 * **Auto Updater**.
   * Just as the title says!
@@ -50,7 +50,7 @@ Possible improvements and fixes!
 * **Network booting**
   * Launch homebrew over Wi-Fi (HTTP/SMB/NFS).
 
-* **Auto-updater / repo browser**
+* **Auto-updater / repo browser** (low priority due to Homebrew Browser existing)
   * Have a app store to download or update apps from within HBC, just like the [Homebrew Browser](https://oscwii.org/library/app/homebrew_browser).
 
 * **Wii U vWii support**
